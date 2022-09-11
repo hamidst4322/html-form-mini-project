@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mini-project</title>
-</head>
-<body>
-<form action="" dir="rtl">
-    <fieldset>
-        <legend style="text-align:center;"> فرم استعلام طراحی سایت :</legend>
-        <p style="color: red; font-size: 1rem;">نکته 1 : خدمات مندرج در این فرم میتواند خصوصی سازی شود .</p>
-        <p style="color: red; font-size: 1rem;">نکته 2 : فیلد هایی که دارای علامت * اجباری میباشد و باید تکمیل شود .</p>
-    </fieldset>
-</form>
-</body>
+  </head>
+  <body>
+    <form action="" dir="rtl" style="font-size: 1rem">
+      <fieldset>
+        <legend style="text-align: center">فرم استعلام طراحی سایت </legend>
+        <p style="color: red; font-size: 1rem">
+          نکته 1 : خدمات مندرج در این فرم میتواند خصوصی سازی شود .
+        </p>
+        <p style="color: red; font-size: 1rem">
+          نکته 2 : فیلد هایی که دارای علامت * اجباری میباشد و باید تکمیل شود .
+        </p>
+        <br />
+        <form action="" style="text-align: center">
+          <label for=""> * نام :</label>
+          <input
+            type="text"
+            name="first name"
+            placeholder=" نام خود را وارد کنید "
+            required
+          />
+          <br /><br />
+          <label for="">*نام خانوادگی :</label>
+          <input
+            type="text"
+            name="last name"
+            placeholder="  نام خانوادگی خود را وارد کنید "
+            required
+          />
+          <br /><br />
+          <label for="">*پست الکترونیکی :</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="ایمیل خود را وارد کنید"
+            required
+          size="30" />
+          <br /><br />
+          <label for="">*شماره منزل | محل کار  :</label>
+          <input
+            type="tel"
+            name="phone2"
+            placeholder="شماره منزل | محل کار  خود را وارد کنید"
+            required
+           size="26"/>
+          <br /><br />
+          <label for="">*شماره     
+             همراه :</label>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="شماره همراه خود را وارد کنید"
+        size="26"
+            required
+          />
+          <br /><br />
+        </form>
+      </fieldset>
+    </form>
+  </body>
 </html>
