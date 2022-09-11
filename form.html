@@ -43,8 +43,8 @@
           <input type="radio" name="bodje" id="">
           <span>10 میلیون به بالا</span>
           <input type="radio" name="bodje" id="" checked> <br></br>
-          <label for="">نوع وب سایت سایت شما :</label>
-          <select>
+          <label for="">* نوع وب سایت شما :</label>
+          <select required>
 <option value=""> خدماتی</option>
 <option value=""> شرکت</option>
 <option value=""> فروشگاهی</option>
@@ -52,13 +52,20 @@
 <option value=""> سایر ...</option>
           </select>
           <br><br>
-          <label for="">خدمات اضافه :</label>
+          <label for="" style="margin-left: 5px;">خدمات اضافه :</label>
           <span>سئو</span>
 <input type="checkbox" name="seo" id="">
           <span>واکنشگرایی</span>
 <input type="checkbox" name="bs" id="">
           <span>تبلیغات گوگل</span>
-<input type="checkbox" name="ads" id="">
+<input type="checkbox" name="ads" id=""><br><br>
+<label for=""> زمان مطلوب شما برای تحویل پروژه :</label>
+<span>40روز</span>
+<input type="range">
+<span>20روز</span><br><br>
+<textarea style="width: 300px;height: 150px;" placeholder="توضیحات...."></textarea><br><br>
+<input type="submit" value="ثبت درخواست" name="submit">
+<input type="reset" value=" پاک کردن فرم" name="reset">
         </form>
       </fieldset>
     </form>
